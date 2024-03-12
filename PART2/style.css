@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(./colorbackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.container {
+    height: 70vh;
+    width: 70vw;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px;
+    top: 15vh;
+    right: 15vw;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.followers {
+    position: absolute;
+    top: 35%;
+    right: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.followers ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.followers li {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: rgb(110, 104, 104)
+    
+}
+
+.image {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top: -12vh;
+    left: 28vw;
+    color: palevioletred;
+}
+
+.image img {
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+    padding: 2px;
+    background-color: white;
+}
+
+.icons {
+    position: absolute;
+    bottom: 25vh;
+    left: 23vw;
+    display: flex;
+    gap: 20px;
+}
+
+.icons img {
+    height: 40px;
+    width: 40px;
+    border-radius: 3px;
+}
+
+.message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 15vh;
+    left: 45vh;
+    gap: 50px;
+}
+
+.message button {
+    outline: 0;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.message .purple-color {
+    background-color: rgb(144, 90, 194);
+}
+
+.message .pink-color {
+    background-color: violet;
+}
